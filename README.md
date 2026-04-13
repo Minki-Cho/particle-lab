@@ -1,19 +1,31 @@
+```md
 # Particle Lab
 
 Cross-platform 3D particle simulator in C++ using Vulkan.
 
 ## Goals
 - Windows and Linux support
-- real-time particle update/render
+- real-time particle simulation and rendering
 - configurable emitter presets
 - issue-driven development with Linear + Symphony
 
-## Planned milestones
+## Tech Stack
+- C++
+- Vulkan
+- GLFW
+- CMake
+
+## Planned Milestones
 1. Project scaffolding
-2. Vulkan window and swapchain setup
+2. Vulkan instance, device, and swapchain setup
 3. Basic render loop
-4. CPU particle simulation
-5. Emitter presets
-6. Debug controls
-7. Multithreaded update
-8. GPU compute path
+4. CPU-based particle simulation
+5. Particle emitter presets
+6. Debug stats and controls
+7. Multithreaded update path
+8. GPU particle path
+
+## Development Model
+This project is developed through issue-based workflows using Linear and Symphony.
+Changes should stay small, reviewable, and scoped to a single issue whenever possible.
+```
